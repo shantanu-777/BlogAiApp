@@ -1,7 +1,4 @@
-Got it 👍
-Here’s a clean **README.md** written in the same **style/format** as the one you originally had — just copy-paste it:
 
-```markdown
 # Blog-AI
 
 This is a blog application built with **Next.js**, **Supabase**, and **AI integration** for smarter blogging.
