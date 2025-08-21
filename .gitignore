@@ -1,0 +1,65 @@
+# Project-related files
+
+# Run logs
+backend/run_logs/*
+
+# Weird Docker setup related files
+backend/backend/*
+
+# Env vars
+frontend/.env.local
+.env
+frontend/node_modules/
+
+# Mac files
+.DS_Store
+
+# Generated content
+content/blog/*
+content/books/*
+
+# Keep .gitkeep files
+!content/blog/.gitkeep
+!content/books/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+.venv
+env/
+
+# Node.js
+frontend/.next/
+frontend/out/
+frontend/.cache/
+frontend/npm-debug.log
+frontend/yarn-debug.log
+frontend/yarn-error.log
+frontend/tsconfig.tsbuildinfo
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
