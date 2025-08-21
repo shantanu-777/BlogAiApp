@@ -1,128 +1,126 @@
-# BlogAiApp
+Got it 👍
+Here’s a clean **README.md** written in the same **style/format** as the one you originally had — just copy-paste it:
 
-Welcome to Blog generator Generator – a powerful tool that helps you create high-quality blogs, books, and other long-form content with ease. Built with modern AI models like GPT-4, this project speeds up the writing process and ensures your content is polished, structured, and SEO-friendly.
+```markdown
+# Blog-AI
 
-✨ Features
+This is a blog application built with **Next.js**, **Supabase**, and **AI integration** for smarter blogging.
 
-📝 Blog Writing – Generate complete blog posts that are optimized for search engines.
+---
 
-📚 Book Creation – Draft full-length books with chapters, sections, and consistent flow.
+## 🚀 Features
 
-📅 Planning Tools – Build content calendars, topic clusters, and outlines.
+- 🔐 **Authentication & User Management** (Supabase Auth)
+- 👤 **Role-based Access Control** (Admin, Editor, Author, Reader)
+- ✍️ **Create, Edit, and Publish Blogs**
+- 🤖 **AI Integration**  
+  - Blog writing assistant  
+  - Content suggestions  
+  - Grammar corrections  
+- 📜 **View Conversation History with AI**
+- 🎨 **Modern UI with TailwindCSS & ShadCN**
 
-🔍 Competitor Insights – Analyze existing content to uncover opportunities.
+---
 
-🔎 Research Support – Enrich your text with web-based research.
+## 📂 Project Structure
 
-🔄 Post-Editing – Proofread, reformat, and humanize the content.
+```
 
-🔌 Integrations – Publish directly to platforms like WordPress, Medium, or GitHub.
+frontend/
+├── app/                # Next.js App Router pages
+│   ├── globals.css      # Global styles
+│   ├── layout.tsx       # Root layout
+│   └── page.tsx         # Landing page
+├── components/          # Reusable UI components
+├── lib/                 # Utility functions
+├── public/              # Static assets
+├── README.md
+└── package.json
 
-🤖 Powered by Modern AI – Built on GPT-4 for reliable and natural outputs.
+````
 
-📂 Project Layout
+---
 
-ai-content-generator/
-├── src/                      
-│   ├── blog/                 # Blog generation modules
-│   ├── book/                 # Book generation modules
-│   ├── planning/             # Planning utilities (calendars, outlines, etc.)
-│   ├── research/             # Research helpers
-│   ├── seo/                  # SEO support
-│   ├── integrations/         # Publishing integrations
-│   ├── post_processing/      # Cleanup and editing tools
-│   ├── text_generation/      # Core AI generation logic
-│   └── types/                # Data types & schemas
-├── tests/                    # Automated tests
-├── frontend/                 # Next.js frontend
-├── .env                      # Environment variables
-├── pyproject.toml            # Python dependencies
-└── README.md                 # Documentation
+## ⚙️ Installation
 
-⚡ Getting Started
-1. Clone the repo
-git clone https://github.com/yourusername/ai-content-generator.git
+Clone the repository:
 
-2. Add environment variables
+```bash
+git clone https://github.com/shantanu-777/blog-AI.git
+cd blog-AI/frontend
+````
 
-Create a .env file and include your API keys:
+Install dependencies:
 
-OPENAI_API_KEY=your_key_here
-ANTHROPIC_API_KEY=optional
-SERP_API_KEY=optional
-SEC_API_API_KEY=optional
-
-3. Install dependencies
-
-Using Poetry (recommended):
-
-poetry install
-
-
-Or with pip:
-
-pip install -r requirements.txt
-
-4. Run the backend
-python server.py
-
-
-👉 Backend will run at: http://localhost:8000
-
-5. Run the frontend (optional)
-cd frontend
+```bash
 npm install
+```
+
+Set up TailwindCSS & PostCSS:
+
+```bash
+npm install tailwindcss postcss autoprefixer @tailwindcss/postcss
+```
+
+---
+
+## 🔑 Environment Variables
+
+Create a `.env.local` file inside the `frontend/` folder and add:
+
+```bash
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_key
+```
+
+---
+
+## ▶️ Run Locally
+
+Start the development server:
+
+```bash
 npm run dev
+```
 
+The app will be available at:
 
-👉 Frontend will run at: http://localhost:3000
+```
+http://localhost:3000
+```
 
-🐳 Docker Setup
+---
 
-If you prefer Docker:
+## 🛠️ Tech Stack
 
-docker-compose up -d
+* [Next.js](https://nextjs.org/)
+* [Supabase](https://supabase.com/)
+* [TailwindCSS](https://tailwindcss.com/)
+* [ShadCN UI](https://ui.shadcn.com/)
+* [TypeScript](https://www.typescriptlang.org/)
 
+---
 
-API: http://localhost:8000
+## 📌 Notes
 
-Frontend: http://localhost:3000
+* If TailwindCSS shows `@tailwind unknown rule` error → Install `@tailwindcss/postcss`
+* Make sure `.env.local` is correctly set up
+* AI features require proper API keys (to be added later)
 
-Stop containers:
+---
 
-docker-compose down
+## 🤝 Contributing
 
-🎯 Usage
-Blog generation
-python -m src.blog.make_blog "My Blog Topic" --keywords "ai,tech,startup" --research
+Pull requests are welcome.
+For major changes, please open an issue first to discuss what you would like to change.
 
-Book creation
-python -m src.book.make_book "My Book Idea" --chapters 6 --sections 4 --output "my_book.md"
+---
 
-Planning tools
-python -m src.planning.content_calendar "Tech Niche" --timeframe month --frequency 7
+## 📜 License
 
-Publishing
-python -m src.integrations.wordpress "My Blog Post" --url "https://mysite.com" --username "me" --password "pass"
+MIT License © 2025 Shantanu Modhave
 
-🧪 Run Tests
-python -m unittest discover tests
+```
 
-🛠️ Tech Stack
-
-FastAPI – Backend API
-
-Next.js – Frontend
-
-OpenAI, Anthropic, Gemini – AI models
-
-TailwindCSS – Styling
-
-Docker – Deployment
-
-📜 License
-
-This project is released under the MIT License
-.
-
-✨ With AI Content Generator, you can focus on ideas while the AI handles the heavy lifting.
+Do you want me to also **add exact setup steps for AI integration (LLM API key usage)** into this README, or keep it minimal for now?
+```
