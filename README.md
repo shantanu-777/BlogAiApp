@@ -1,7 +1,6 @@
 # BlogAiApp
-🚀 AI Content Generator
 
-Welcome to AI Content Generator – a powerful tool that helps you create high-quality blogs, books, and other long-form content with ease. Built with modern AI models like GPT-4, this project speeds up the writing process and ensures your content is polished, structured, and SEO-friendly.
+Welcome to Blog generator Generator – a powerful tool that helps you create high-quality blogs, books, and other long-form content with ease. Built with modern AI models like GPT-4, this project speeds up the writing process and ensures your content is polished, structured, and SEO-friendly.
 
 ✨ Features
 
@@ -22,6 +21,7 @@ Welcome to AI Content Generator – a powerful tool that helps you create high-q
 🤖 Powered by Modern AI – Built on GPT-4 for reliable and natural outputs.
 
 📂 Project Layout
+
 ai-content-generator/
 ├── src/                      
 │   ├── blog/                 # Blog generation modules
