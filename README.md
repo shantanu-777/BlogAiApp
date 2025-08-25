@@ -54,6 +54,7 @@ BlogAiApp/
    git clone https://github.com/yourusername/BlogAiApp.git
 ````
 
+
 2. **Configure environment**:
    Copy `.env.example` into `.env` and add your API keys:
 
@@ -170,13 +171,7 @@ python -m unittest discover tests
 
 This project is distributed under the [MIT License](LICENSE).
 
----
 
 🎉 **BlogAiApp helps you write smarter, faster, and better content.**
 
-```
 
----
-
-Would you like me to also make you a **shorter, minimal README** (like a landing page style) for GitHub — and keep this long one in `docs/README.md`? That way, your repo front page looks cleaner.
-```
